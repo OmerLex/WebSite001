@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.flex-container{
+    display: flex;
+}
+.left{
+    border: 3px;
+    border-style: solid;
+    border-color: aqua;
+    /* height: 150px; */
+    height: auto;
+    /* width: 150px; */
+    width: 30%;
+    margin:0px;
+    background-color: beige;
+    /* border-radius: 50%; */
+}
+
+.right{
+    border: 3px;
+    border-style: dotted;
+    border-color:blueviolet;
+    /* height: 150px; */
+    height: auto;
+    /* width: 150px; */
+    width: 70%;
+    margin:0px;
+    background-color:cadetblue;
+    /* border-radius: 50%; */
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+h1{
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+}
